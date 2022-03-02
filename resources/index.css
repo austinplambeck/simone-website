@@ -1,0 +1,50 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    /*font-family: 'Shippori Antique B1', sans-serif;*/
+}
+
+.main-d {
+    display: block;
+    width: 40%;
+    margin: 5vh auto;
+    height: 90vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#selfie-d {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5vh 0vh 2.5vh 0vh;
+    border-radius: 50%;
+}
+
+.socials-d {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.socials-d img {
+    width: 6vh;
+    margin: 0 1vh;
+    border-radius: 10%;
+}
+
+.socials-d img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-d h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.main-d h3 {
+    margin: 1vh 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
