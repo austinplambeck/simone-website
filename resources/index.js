@@ -1,14 +1,17 @@
 // Desktop
 const article = document.querySelector("#info-d");
+const div = document.querySelector("#container");
 
 function showMore() {
     if (article.className == "open") {
       // read less
       article.className = "";
+      div.className = "";
       document.querySelector("#show-more-d").innerHTML = "show more";
     } else {
       //read more
       article.className = "open";
+      div.className = "open";
       document.querySelector("#show-more-d").innerHTML = "show less";
     }
  }
